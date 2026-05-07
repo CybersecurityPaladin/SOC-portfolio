@@ -11,7 +11,7 @@ AD brute force, phishing, malware, Linux priv esc, honeypot, SSH attack, Suspici
 ➣ **Followed malware on the wire** using Wireshark: saw the download, the beacon, and the data being smuggled out via SMTP.  
 ➣ **Walked in an attacker's shoes** on a Linux server - from www‑data to root. Every bash command, every mistake they made.  
 ➣ **Investigated a honeypot** that got hit. Reconstructed the timeline using auth.log, Apache logs, and firewall changes.  
-➣ **Responded to an SSH brute force** - traced the IP, the compromised account, persistence, and executed commands.
+➣ **Responded to an SSH brute force** - traced the IP, the compromised account, persistence, and executed commands.  
 ➣ **Tracked an attacker who needed no malware** - just PowerShell commands to gut Windows defenses. Found how they disabled LSA protection, killed Defender, patched AMSI, and wiped PowerShell history logging.
 
 
