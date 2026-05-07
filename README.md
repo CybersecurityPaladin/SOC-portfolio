@@ -1,6 +1,6 @@
 ﻿# Cybersecurity Portfolio SOC(L1)
 
-AD brute force, phishing, malware, Linux priv esc, honeypot, SSH attack - investigated and documented.
+AD brute force, phishing, malware, Linux priv esc, honeypot, SSH attack, Suspicious PowerShell commands - investigated and documented.
 
 ## 👁️ Overview
 
