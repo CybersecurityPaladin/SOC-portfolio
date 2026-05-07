@@ -44,7 +44,7 @@ This portfolio shows how I detect, investigate, and respond to real attacks.
 | CyberChef, VirusTotal | Phishing, Malware analysis |
 | Active Directory | Domain controller setup, user auth logging |
 | Atomic Red Team | AD Brute Force |
-| Sysmon, Event Viewer | Logs |
+| Sysmon, Event Viewer | Suspicious PS Commands |
 
 ## 📚 Learning Platforms
 TryHackMe, Hack The Box, BlueTeam Labs, CyberDefenders
