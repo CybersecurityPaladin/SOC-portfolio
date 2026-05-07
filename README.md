@@ -12,6 +12,7 @@ AD brute force, phishing, malware, Linux priv esc, honeypot, SSH attack - invest
 ➣ **Walked in an attacker's shoes** on a Linux server - from www‑data to root. Every bash command, every mistake they made.  
 ➣ **Investigated a honeypot** that got hit. Reconstructed the timeline using auth.log, Apache logs, and firewall changes.  
 ➣ **Responded to an SSH brute force** - traced the IP, the compromised account, persistence, and executed commands.
+➣ **Tracked an attacker who needed no malware** - just PowerShell commands to gut Windows defenses. Found how they disabled LSA protection, killed Defender, patched AMSI, and wiped PowerShell history logging.
 
 
 ## 📂 Projects 
@@ -40,6 +41,10 @@ AD brute force, phishing, malware, Linux priv esc, honeypot, SSH attack - invest
 **What I analyzed:** SSH brute force attack leading to compromise. Identified attacker IP, compromised account, session details, persistence methods, and executed commands.  
 [<ins>**Read the full lab**</ins>](https://github.com/CybersecurityPaladin/SSH-BruteForce-Analysis)
 
+### 7. Suspicious PowerShell Commands (Defense Evasion)
+**What I uncovered:** An attacker who didn't bother with malware - just used native PowerShell to tear down every security control in Windows. Disabled LSA protection, killed Windows Defender, patched AMSI, and even turned off PowerShell history logging. All without a single alert.
+[<ins>**Read the full lab**</ins>](https://github.com/CybersecurityPaladin/Suspicious-PS-Commands)
+
 ## 🛠️ Core Skills
 
 | Skill | Where I used it |
@@ -52,6 +57,7 @@ AD brute force, phishing, malware, Linux priv esc, honeypot, SSH attack - invest
 | CyberChef, VirusTotal | Phishing + Malware analysis |
 | Active Directory | Domain controller setup, user auth logging |
 | Atomic Red Team | (Reference from training) |
+| Windows Event Logs (4657, 4104) | Suspicious PS Commands
 
 
 ## 📚 Learning Platforms
