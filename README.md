@@ -1,19 +1,6 @@
 ﻿# Cybersecurity Portfolio SOC(L1)
-
-AD brute force, phishing, malware, Linux priv esc, honeypot, SSH attack, Suspicious PowerShell commands - investigated and documented.
-
-## 👁️ Overview
-
-**Here's what I've done:**
-
-➣ **Built an Active Directory lab** (Domain Controller, Windows 10, Kali, Splunk) and detected a brute force attack live - from failed logins to successful authentication.  
-➣ **Tore apart a phishing email** that looked legitimate. Found the real attachment (ZIP inside a PDF), extracted metadata, and identified the attacker.  
-➣ **Followed malware on the wire** using Wireshark: saw the download, the beacon, and the data being smuggled out via SMTP.  
-➣ **Walked in an attacker's shoes** on a Linux server - from www‑data to root. Every bash command, every mistake they made.  
-➣ **Investigated a honeypot** that got hit. Reconstructed the timeline using auth.log, Apache logs, and firewall changes.  
-➣ **Responded to an SSH brute force** - traced the IP, the compromised account, persistence, and executed commands.  
-➣ **Tracked an attacker who needed no malware** - just PowerShell commands to gut Windows defenses. Found how they disabled LSA protection, killed Defender, patched AMSI, and wiped PowerShell history logging.
-
+ 
+This portfolio shows how I detect, investigate, and respond to real attacks. 
 
 ## 📂 Projects 
 
@@ -52,13 +39,11 @@ AD brute force, phishing, malware, Linux priv esc, honeypot, SSH attack, Suspici
 | Splunk (SIEM) | AD Brute Force lab - search queries, event correlation, alerting |
 | Wireshark | Malware traffic analysis - DNS, HTTP, SMTP reconstruction |
 | Linux Log Analysis | Privilege Escalation + Honeypot - auth.log, Apache logs, bash history |
-| Windows Event Logs | AD Brute Force - 4625, 4624, Sysmon |
+| Windows Event Logs | AD Brute Force - 4625, 4624, Sysmon, Suspicious PS Commands - 4657, 4104 |
 | MITRE ATT&CK | Mapping attack techniques across all investigations |
 | CyberChef, VirusTotal | Phishing + Malware analysis |
 | Active Directory | Domain controller setup, user auth logging |
 | Atomic Red Team | (Reference from training) |
-| Windows Event Logs (4657, 4104) | Suspicious PS Commands
-
 
 ## 📚 Learning Platforms
 TryHackMe, Hack The Box, BlueTeam Labs, CyberDefenders
