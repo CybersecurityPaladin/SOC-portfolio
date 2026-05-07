@@ -42,7 +42,7 @@ AD brute force, phishing, malware, Linux priv esc, honeypot, SSH attack, Suspici
 [<ins>**Read the full lab**</ins>](https://github.com/CybersecurityPaladin/SSH-BruteForce-Analysis)
 
 ### 7. Suspicious PowerShell Commands (Defense Evasion)
-**What I uncovered:** An attacker who didn't bother with malware - just used native PowerShell to tear down every security control in Windows. Disabled LSA protection, killed Windows Defender, patched AMSI, and even turned off PowerShell history logging. All without a single alert.
+**What I analyzed:** An attacker who didn't bother with malware - just used native PowerShell to tear down every security control in Windows. Disabled LSA protection, killed Windows Defender, patched AMSI, and even turned off PowerShell history logging. All without a single alert.  
 [<ins>**Read the full lab**</ins>](https://github.com/CybersecurityPaladin/Suspicious-PS-Commands)
 
 ## 🛠️ Core Skills
