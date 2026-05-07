@@ -36,14 +36,14 @@ This portfolio shows how I detect, investigate, and respond to real attacks.
 
 | Skill | Where I used it |
 |:-------:|:-----------------:|
-| Splunk (SIEM) | AD Brute Force lab - search queries, event correlation, alerting |
-| Wireshark | Malware traffic analysis - DNS, HTTP, SMTP reconstruction |
-| Linux Log Analysis | Privilege Escalation + Honeypot - auth.log, Apache logs, bash history |
-| Windows Event Logs | AD Brute Force - 4625, 4624, Sysmon, Suspicious PS Commands - 4657, 4104 |
+| Splunk (SIEM) | AD Brute Force lab |
+| Wireshark | Malware traffic analysis |
+| Linux Log Analysis | Honeypot, Apache logs, bash history |
+| Windows Event Logs | AD Brute Force, Sysmon, Suspicious PS Commands |
 | MITRE ATT&CK | Mapping attack techniques across all investigations |
-| CyberChef, VirusTotal | Phishing + Malware analysis |
+| CyberChef, VirusTotal | Phishing, Malware analysis |
 | Active Directory | Domain controller setup, user auth logging |
-| Atomic Red Team | (Reference from training) |
+| Atomic Red Team | AD Brute Force |
 
 ## 📚 Learning Platforms
 TryHackMe, Hack The Box, BlueTeam Labs, CyberDefenders
