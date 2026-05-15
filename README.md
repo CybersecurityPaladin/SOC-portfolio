@@ -47,5 +47,5 @@ This portfolio shows how I detect, investigate, and respond to real attacks.
 | Sysmon, Event Viewer | Suspicious PS Commands |
 
 ## 📚 Learning Platforms
-TryHackMe, Hack The Box, BlueTeam Labs, CyberDefenders
+TryHackMe, Hack The Box, BlueTeam Labs, CyberDefenders, PortSwiger
 
